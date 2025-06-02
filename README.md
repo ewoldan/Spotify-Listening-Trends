@@ -8,9 +8,7 @@
 3. [Business Problem](#business-problem)  
 4. [Scope](#scope)  
 5. [Data Acquisition & Preparation](#data-acquisition--preparation)  
-6. [Data Overview](#data-overview)  
-7. [Recommendations](#recommendations)  
-8. [Tableau Dashboard](#tableau-dashboard)  
+6. [Tableau Dashboard](#tableau-dashboard)  
 
 
 
@@ -28,7 +26,7 @@ This project builds a repeatable workflow **Extract → Transform → Load (ETL)
 - Store everything in a MySQL database for fast querying, plus export CSV files for quick reference
 - Visualize the results in an interactive Tableau dashboard for analysts and decision‐makers
 
----
+
 
 ## Business Problem
 Music labels, streaming analysts, and marketers often need an up‐to‐date snapshot of what’s trending on Spotify’s Hot 100. By ingesting and analyzing this data in a structured ETL pipeline, stakeholders can:
@@ -39,7 +37,7 @@ Music labels, streaming analysts, and marketers often need an up‐to‐date sna
 
 Without this pipeline, analysts would spend significant time manually downloading CSV exports or scraping track pages—introducing lag, inconsistencies, and missed opportunities.
 
----
+
 
 ## Scope
 1. **Extract**  
@@ -66,7 +64,7 @@ Without this pipeline, analysts would spend significant time manually downloadin
      - Bar charts of the most featured artists
      - Quick insights such as “Top Artist,” “Top Genre,” and “Average Track Duration”
 
----
+
 
 ## Data Acquisition & Preparation
 
@@ -84,3 +82,12 @@ Without this pipeline, analysts would spend significant time manually downloadin
 2. **Python Dependencies**  
    ```bash
    pip install pandas spotipy sqlalchemy pymysql python-dotenv
+
+## Tableau Dashboard
+
+The Tableau dashboard consists of two pages: the first shows high‐level trends (top artists, genre distribution, and chart position vs. duration) with a global filter at the top to slice by date, genre, artist, or chart range. On the second page, you’ll find a detailed table of all 100 tracks—each with a clickable Spotify URL—and a “Top Song” spotlight link at the bottom for instant playback.
+
+<img width="1122" alt="Hot-100-Page1" src="https://github.com/user-attachments/assets/824adf5f-059f-4bee-8e0c-d7fa743ebc89" />
+
+<img width="1122" alt="Hot-100-Page2" src="https://github.com/user-attachments/assets/51407af6-a9c5-4977-9734-327d7ab05336" />
+

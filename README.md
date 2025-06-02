@@ -84,7 +84,9 @@ Without this pipeline, analysts would spend significant time manually downloadin
 
 ## Tableau Dashboard
 
-The Tableau dashboard consists of two pages: the first shows high‐level trends (top artists, genre distribution, and chart position vs. duration) with a global filter at the top to slice by date, genre, artist, or chart range. On the second page, you’ll find a detailed table of all 100 tracks—each with a clickable Spotify URL—and a “Top Song” spotlight link at the bottom for instant playback.
+The Tableau dashboard consists of two pages: 
+- **the first** shows high‐level trends (top artists, genre distribution, and chart position vs. duration) with a global filter at the top to slice by date, genre, artist, or chart range
+- on **the second page**, you’ll find a detailed table of all 100 tracks—each with a clickable Spotify URL—and a “Top Song” spotlight link at the bottom for instant playback.
 
 **Open the full dashboard:**  
 [Spotify Hot 100 Tableau Dashboard](https://public.tableau.com/app/profile/emilia.woldan6280/viz/Spotify-Hot-100/Dash-Main-Page)

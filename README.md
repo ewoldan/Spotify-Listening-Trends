@@ -1,7 +1,5 @@
 # Spotify Billlboard Hot 100 ETL & Analysis
 
----
-
 ## Table of Contents
 1. [Description](#description)  
 2. [Objective](#objective)  

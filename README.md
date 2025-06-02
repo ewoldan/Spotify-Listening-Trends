@@ -1,5 +1,7 @@
 # Spotify Billlboard Hot 100 ETL & Analysis
 
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/78408c28-dc01-4069-aacf-99a15c55f760" />
+
 
 ## Table of Contents
 1. [Description](#description)  

@@ -14,7 +14,7 @@
 
 
 ## Description
-This project builds a repeatable workflow **Extract → Transform → Load (ETL)** pipeline that automatically retrieves the tracks in Billlboard Hot 100 playlist from Spotify, cleans and enriches the information, and stores the results in a database. In addition, it creates summary files—such as a list of the most‐featured artists—and produces a Tableau dashboard to visualize key trends.
+This project builds a repeatable workflow **Extract → Transform → Load (ETL)** pipeline that automatically retrieves the tracks in Billlboard Hot 100 playlist from Spotify, cleans and enriches the information, and stores the results in a database. In addition, it creates summary files, such as a list of the most featured artists, and produces a Tableau dashboard to visualize key trends.
 
 
 
